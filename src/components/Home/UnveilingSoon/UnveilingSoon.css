@@ -1,0 +1,85 @@
+.unveiling_soon_flex {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.unveiling_soon_flex .main_heading {
+    font-weight: 900;
+    font-family: var(--font-bold);
+    color: var(--color-yellow);
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+.unveiling_soon_flex .main_heading::after {
+    background-color: var(--color-yellow);
+}
+.unveiling_sub_heading {
+    font-weight: 600;
+    font-family: var(--font-semibold);
+    color: var(--color-black);
+    font-size: 24px;
+}
+.unveiling_text {
+    font-weight: 500;
+    font-family: var(--font-medium);
+    color: var(--color-black);
+    font-size: 18px;
+}
+.unveiling_btns_block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.unveiling_btns_block .btn {
+    font-weight: 500;
+    font-family: var(--font-medium);
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 10px 16px;
+}
+.unveiling_btns_block .btn.request_access_btn {
+    background-color: var(--color-yellow);
+    color: var(--color-black);
+    border: 1px solid var(--color-yellow);
+}
+.unveiling_btns_block .btn.request_access_btn:hover,
+.unveiling_btns_block .btn.request_access_btn:active {
+    background-color: var(--color-footer);
+    color: var(--color-white);
+    border: 1px solid var(--color-footer);
+}
+.unveiling_btns_block .btn.get_brochure_btn {
+    background-color: var(--color-transparent);
+    color: var(--color-black);
+    border: 1px solid var(--color-black);
+}
+.unveiling_btns_block .btn.get_brochure_btn:hover,
+.unveiling_btns_block .btn.get_brochure_btn:active {
+    background-color: var(--color-footer);
+    color: var(--color-white);
+    border: 1px solid var(--color-footer);
+}
+@media (max-width: 991px) {
+    
+    .unveiling_soon_flex {
+        flex-direction: column;
+        align-items: start;
+    }
+    
+}
+@media (max-width: 767px) {
+    .unveiling_soon_flex .main_heading {
+        font-size: 25px;
+    }
+    .unveiling_sub_heading {
+        font-size: 20px;
+    }
+    .unveiling_text {
+        font-size: 16px;
+    }
+    .unveiling_btns_block .btn {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+}

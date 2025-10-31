@@ -1,0 +1,263 @@
+.form-input:focus {
+    /* box-shadow: 0 0 0 1px #8F6445, 0px 1px 2px rgba(0, 0, 0, 0.15); */
+    border-color: #8F6445 !important;
+}
+
+/* .PhoneInputCountry {
+    display: none !important;
+} */
+
+
+input.align-middle.size-4 {
+    scale: 1.5;
+    margin-right: 12px;
+}
+
+.form-success #enquiry-form {
+    gap: 0!important;
+}
+
+.check {
+    border-radius: 50%;
+    font-size: 15px;
+    height: 24px;
+    padding: 4px;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+span.thanku-txt {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: var(--font-semibold);
+}
+.css-19eiqil-MuiModal-root-MuiDialog-root .MuiDialog-container .MuiPaper-root {
+    margin: 15px;
+}
+.PhoneInputCountrySelectArrow {
+    opacity: 1 !important;
+    --PhoneInputCountrySelectArrow-color: var(--color-black) !important;
+}
+.PhoneInputCountryIcon {
+    margin-right: 5px;
+}
+.enquire-form h5 {
+    font-size: 20px;
+    line-height: 1;
+    color: var(--color-yellow);
+    font-weight: 600;
+    font-family: var(--font-semibold);
+}
+.enquire-form input {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: var(--font-medium);
+    padding: 10px 15px !important;
+    height: auto;
+    border: 1px solid #A3A1A1 !important;
+    border-radius: 8px;
+    background-color: var(--color-transparent) !important;
+    color: var(--color-black);
+    width: 100%;
+}
+.enquire-form input::placeholder {
+    color: #686868;
+}
+.enquire-form input.invalid,
+.enquire-form .PhoneInput.phone-input-error,
+.custom-checkbox .checkmark.checkbox-error {
+    border-color: var(--color-red) !important;
+}
+.enquire-form .PhoneInput {
+    border: 1px solid #A3A1A1 !important;
+    border-radius: 8px;
+    background-color: var(--color-transparent) !important;
+    padding: 10px 15px !important;
+}
+.enquire-form .PhoneInput input {
+    border: none !important;
+    border-radius: 0px;
+    padding: 0 10px !important;
+    background-color: var(--color-transparent) !important;
+}
+.enquire-form .checkbox_div {
+    margin-top: 1rem !important;
+    font-size: 12px;
+    color: #484747;
+    align-items: start;
+}
+.enquire-form input.checkbox {
+    background-color: var(--color-transparent) !important;
+    margin-top: 5px;
+    border: 1px solid var(--color-white) !important;
+}
+.enquire-form .submit_btn {
+    background-color: var(--color-footer) !important;
+    color: var(--color-white);
+    width: max-content;
+    text-transform: capitalize;
+    padding: 12px 20px !important;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-medium);
+    border: 1px solid var(--color-footer) !important;
+    margin-top: 1rem;
+}
+.enquire-form .submit_btn:hover {
+    background-color: var(--color-yellow) !important;
+    color: var(--color-black) !important;
+    border-color: var(--color-yellow) !important;
+}
+.enquire-form .form_error {
+    color: var(--color-red) !important;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--font-semibold);
+    margin-bottom: 10px;
+}
+.enquire-form .error {
+    color: #ff3838 !important;
+    font-weight: 600;
+    font-family: var(--font-semibold);
+    font-size: 10px;
+    visibility: hidden;
+}
+.enquire-form .error.visible {
+    visibility: visible;
+}
+.enquire-form .form-row {
+    padding: 0 !important;
+}
+.popup-form svg {
+    color: var(--color-yellow);
+}
+.enquire-form .form-row-flex {
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+}
+.enquire-form .form-row-flex .form-row {
+    width: 100%;
+}
+.custom-checkbox input {
+  display: none;
+}
+.enquire-form .form_label {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--font-semibold);
+    color: var(--color-footer);
+    margin-bottom: 5px;
+}
+.price_range_group {
+    flex-wrap: unset;
+    gap: 10px;
+    width: 100%;
+}
+.price_range_group .btn {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    font-family: var(--font-medium);
+    color: #686868;
+    background-color: var(--color-transparent);
+    border: 0.5px solid #A3A1A1 !important;
+    border-radius: 4px !important;
+    width: 100%;
+    flex: unset;
+    padding: 10px;
+}
+.price_range_group .btn-check:checked+.btn,
+.price_range_group .btn:active,
+.price_range_group .btn:hover {
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+    border-color: #A3A1A1 !important;
+}
+.custom-checkbox .checkmark {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #686868;
+  border-radius: 4px;
+  background: var(--color-transparent);
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 0 5px 0 0;
+}
+
+.custom-checkbox input:checked + .checkmark {
+  border-color: #686868;
+}
+
+/* Check icon */
+.custom-checkbox .checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+  display: block;
+  border-color: var(--color-black);
+}
+@media (max-width: 1399px) {
+    .custom-checkbox .checkmark {
+        width: 14px;
+        height: 14px;
+    }
+}
+@media (max-width: 767px) {
+    .enquire-form h5 {
+        font-size: 20px;
+    }
+    .enquire-form input,
+    .enquire-form .PhoneInput {
+        font-size: 14px;
+        padding: 8px 15px !important;
+    }
+    .enquire-form .submit_btn {
+        padding: 9px 15px !important;
+    }
+    .popup-form .enquire-form {
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .css-19eiqil-MuiModal-root-MuiDialog-root .MuiDialog-container .MuiPaper-root {
+        padding: 15px 10px !important;
+    }
+    .enquire-form .checkbox_div {
+        font-size: 11px;
+    }
+    .price_range_group {
+        gap: 6px;
+    }
+    .price_range_group .btn {
+        min-width: auto;
+        font-size: 10px;
+        padding: 8px;
+    }
+    .enquire-form .form_label {
+        font-size: 18px;
+    }
+    .MuiDialog-root.form_popup .MuiDialog-container .MuiPaper-root {
+        margin: 70px 15px 15px;
+    }
+}
+@media (max-width: 350px) {
+    .price_range_group .btn {
+        padding: 5px;
+    }
+}
