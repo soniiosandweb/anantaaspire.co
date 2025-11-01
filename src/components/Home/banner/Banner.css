@@ -445,13 +445,13 @@
     margin-top: 0 !important;
 }
 .right_fixed_sidebar .enquire-form .submit_btn {
-    background-color: var(--color-yellow) !important;
-    border-color: var(--color-yellow) !important;
+    background-color: var(--color-footer) !important;
+    border-color: var(--color-footer) !important;
     color: var(--color-white);
 }
 .right_fixed_sidebar .enquire-form .submit_btn:hover {
-    background-color: var(--color-footer) !important;
-    border-color: var(--color-footer) !important;
+    background-color: var(--color-yellow) !important;
+    border-color: var(--color-yellow) !important;
     color: var(--color-white) !important;
 }
 .right_fixed_sidebar .enquire-form .PhoneInput input {
@@ -465,11 +465,15 @@
     width: 1vw;
     height: 1vw;
 }
+.right_fixed_sidebar .custom-checkbox .checkmark::after {
+    width: 0.3vw;
+    height: 0.6vw;
+}
 .right_fixed_sidebar .we_get_row .form_label {
     color: var(--color-black);
     border-top: 1px solid var(--color-yellow);
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
 }
 .right_fixed_sidebar .we_get_div_grid {
     gap: 8px;
@@ -485,6 +489,15 @@
     margin-bottom: 0.5rem;
     color: #686868;
 }
+.right_fixed_sidebar .enquire-form {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_fixed_sidebar .enquire-form .form-section {
+    width: 100%;
+}  
 @media (min-height : 800px) {
     .right_fixed_sidebar .bottom_fixed_sidebar {
         padding: 1.5vw;
@@ -494,6 +507,9 @@
     .right_fixed_sidebar {
         margin-top: 72px;
         height: calc(100% - 72px);
+    }
+    .right_fixed_sidebar .enquire-form {
+        min-height: 350px;
     }
 }
 @media (max-width: 1199px) {
@@ -527,22 +543,29 @@
     }
     .right_fixed_sidebar .enquire-form .checkbox_div,
     .right_fixed_sidebar .we_get_div_grid .we_get_div_item .we_get_text {
-        font-size: 0.9vw;
+        font-size: 0.85vw;
     }
     .right_fixed_sidebar .custom-checkbox .checkmark {
         width: 1.2vw;
         height: 1.2vw;
     }
+    .right_fixed_sidebar .we_get_row .form_label {
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+    }
 }
 @media (max-width: 1099px) {
     .right_fixed_sidebar .we_get_div_grid .we_get_div_item .we_get_text {
-        font-size: 1vw;
+        font-size: 0.95vw;
     }
     .right_fixed_sidebar .price_list_heading {
         font-size: 1.1vw;
     }
     .right_fixed_sidebar .price_list_subtext {
         font-size: 1vw;
+    }
+    .right_fixed_sidebar .enquire-form {
+        min-height: 290px;
     }
 }
 @media (max-width: 991px) {

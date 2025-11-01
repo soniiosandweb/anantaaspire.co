@@ -25,50 +25,50 @@ const Gallery = () => {
     const images = [
         {
             src: gallery1,
-            title: "Gallery showcasing modern exteriors and elegant design at Ananta Aspire, highlighting luxury flats in Zirakpur.",
+            title: "Luxury kitchen at AnantaAspire flats in Zirakpur",
             rows: 1,
             cols: 1,
         },
         {
             src: gallery2,
-            title: "Spacious parking facility at Ananta Aspire with organized layout and modern design, highlighting flats for sale in Zirakpur.",
+            title: "Modern sofa set with chandelier in AnantaAspire flats for sale in Zirakpur",
             rows: 2,
             cols: 2,
         },
         {
             src: gallery3,
-            title: "Residents walking along the poolside at Ananta Aspire, enjoying landscaped surroundings and serene outdoor amenities.",
+            title: "Modern bedroom interior at AnantaAspire, one of the new residential projects in Zirakpur",
             rows: 3,
             cols: 2,
         },
         {
             src: gallery4,
-            title: "Children’s swing and play area at Ananta Aspire, highlighting safe and fun amenities in Zirakpur 3BHK flats.",
+            title: "Modern living room with sofa set in AnantaAspire 3BHK flats Zirakpur",
         },
         {
             src: gallery5,
-            title: "People sitting near trees and relaxing at Ananta Aspire, enjoying the landscaped outdoor spaces and serene surroundings.",
+            title: "High-rise building view of AnantaAspire 4BHK luxury apartments in Zirakpur",
             rows: 3,
             cols: 2,
         },
         {
             src: gallery6,
-            title: "Modern office space at Ananta Aspire with contemporary design and professional ambiance, part of new residential projects in Zirakpur.",
+            title: "Modern dining room at AnantaAspire Zirakpur flats 3BHK with elegant interiors and premium design",
             cols: 1,
         },
         {
             src: gallery7,
-            title: "Shaded seating area in landscaped park at Ananta Aspire, providing relaxing spots for residents, highlighting Ananta Aspire flats in Zirakpur.",
+            title: "Safe and modern children’s play area at AnantaAspire 3BHK luxury flats in Zirakpur",
             rows: 2,
             cols: 2,
         },
         {
             src: gallery8,
-            title: "Swimming pool area at Ananta Aspire with modern design and relaxing ambiance, part of 3 BHK luxury flats in Zirakpur.",  
+            title: "High-speed WiFi connectivity facility at AnantaAspire flats in Zirakpur",  
         },
         {
             src: gallery9,
-            title: "Night view of Ananta Aspire flats in Zirakpur with a girl standing near a flowing fountain, showcasing elegant lighting and ambiance, highlighting Ananta Aspire flats for sale.",
+            title: "Elegant interior view of AnantaAspire luxury flats in Zirakpur with premium furnishings",
         }
     ]
 

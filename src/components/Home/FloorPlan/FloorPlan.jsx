@@ -28,7 +28,7 @@ const FloorPlan = () => {
                             <div className="floor_plan_grid">
                                 <div className="floor_plan_grid_item">
                                     <div className="floor_blans_image">
-                                        <img src={floor3} alt="Spacious 3BHK apartment layout at Ananta Aspire – modern luxury flat with premium amenities and elegant living space design." className="floor_plan_img" onClick={() => setOpenPlan3(true)} />
+                                        <img src={floor3} alt="Detailed 3 BHK floor plan of AnantaAspire luxury flats in Zirakpur" className="floor_plan_img" onClick={() => setOpenPlan3(true)} />
                                             <Lightbox
                                                 open={openPlan3}
                                                 close={() => setOpenPlan3(false)}
@@ -56,7 +56,7 @@ const FloorPlan = () => {
                                 {/* 3+1 */}
                                 <div className="floor_plan_grid_item">
                                     <div className="floor_blans_image">
-                                        <img src={floor2} alt="Modern 3+1 BHK plus study and attendant room layout at Ananta Aspire – premium luxury flat design with elegant interiors and amenities." className="floor_plan_img" onClick={() => setOpenPlan2(true)} />
+                                        <img src={floor2} alt="Spacious 3+1 BHK layout design at AnantaAspire flats in Zirakpur" className="floor_plan_img" onClick={() => setOpenPlan2(true)} />
                                         <Lightbox
                                             open={openPlan2}
                                             close={() => setOpenPlan2(false)}
@@ -84,7 +84,7 @@ const FloorPlan = () => {
                                 {/* 4+1 */}
                                 <div className="floor_plan_grid_item">
                                     <div className="floor_blans_image">
-                                        <img src={floor1} alt="Spacious 4+1 BHK plus study and attendant room layout at Ananta Aspire – luxury apartment design with modern amenities." className="floor_plan_img" onClick={() => setOpenPlan1(true)} />
+                                        <img src={floor1} alt="4+1 BHK floor plan of AnantaAspire luxury flats in Zirakpur with study and attendant room layout" className="floor_plan_img" onClick={() => setOpenPlan1(true)} />
                                         <Lightbox
                                             open={openPlan1}
                                             close={() => setOpenPlan1(false)}
@@ -112,7 +112,7 @@ const FloorPlan = () => {
                                 {/* Penthouse */}
                                 <div className="floor_plan_grid_item">
                                     <div className="floor_blans_image">
-                                        <img src={floor4} alt="Luxury penthouse duplex at Ananta Aspire – premium rooftop residence with modern interiors, spacious design, and high-end amenities" className="floor_plan_img" onClick={() => openPriceForm("Enquire Now to Know More", "Connect with Our Team for Brochure, Prices & Site Visit Details", "Enquire Now", "explore")} />
+                                        <img src={floor4} alt="High-end penthouse duplex with premium design at AnantaAspire luxury flats in Zirakpur" className="floor_plan_img" onClick={() => openPriceForm("Enquire Now to Know More", "Connect with Our Team for Brochure, Prices & Site Visit Details", "Enquire Now", "explore")} />
                                     </div>
                                 
                                     <div className="floor_plan_btn_block">

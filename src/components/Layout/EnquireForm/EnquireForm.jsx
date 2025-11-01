@@ -1,7 +1,7 @@
 import './EnquireForm.css';
 import 'react-phone-number-input/style.css';
 import PhoneInput, { isPossiblePhoneNumber, isValidPhoneNumber } from "react-phone-number-input";
-import { useState } from 'react';
+import { Fragment, useState } from 'react';
 import axios from 'axios';
 import { ToggleButton, ToggleButtonGroup } from 'react-bootstrap';
 import telephone from "../../../assests/images/telephone.png";
@@ -122,6 +122,9 @@ const EnquireForm = ({ title, setOpen, button, formId, showSide }) => {
                 //handle success
                 if (response.data.status === 0) {
                     setLoading(false);
+
+                    setFormVisible(false);
+
                     if(formId === "request") {
                         setFormSuccess(
                             <>
@@ -152,9 +155,9 @@ const EnquireForm = ({ title, setOpen, button, formId, showSide }) => {
                     } else if(formId === "contact") {
                         setFormSuccess(
                             <>
-                                <span className='thanku-txt'>Thank You for Connecting with Us!</span>
+                                <span className='thanku-txt'>Thank You!</span>
                                 <div className='flex flex-col success_msg'>
-                                    <span>We appreciate your interest. A dedicated team member will reach out shortly to assist you with Ananta Aspire.</span>
+                                    <span>Our representative will contact you shortly with complete project details and assist you through the next steps.</span>
                                 </div>
                             </>
                         );
@@ -186,9 +189,9 @@ const EnquireForm = ({ title, setOpen, button, formId, showSide }) => {
                     resetForm();
                     setTimeout(() => {
                         setFormSuccess('');
+                        setFormVisible(true);
                         if(setOpen){
                             setOpen(false);
-                            setFormVisible(true);
                         }
                     }, 10000);
 
@@ -224,7 +227,7 @@ const EnquireForm = ({ title, setOpen, button, formId, showSide }) => {
         <form className="enquire-form" onSubmit={handleSubmit}>
              <div className={`form-section text-left ${formSuccess ? 'form-success' : ''}`}>
                 
-                {formVisible && (<div className='gap-2' id='enquiry-form'>
+                <div className='gap-2' id='enquiry-form'>
                     
                     <h5 className="text-2xl font-semibold capitalize mb-2.5">{title}</h5>
 
@@ -239,90 +242,94 @@ const EnquireForm = ({ title, setOpen, button, formId, showSide }) => {
                         </div>
                     )}
 
+                    {formVisible && 
+                        <Fragment>
+
+                            <div className='form-row-flex'>
+                                <div className="py-2 form-row">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        value={formData.name}
+                                        onChange={handleChange}
+                                        className={errors.name ? "invalid" : ""}
+                                        placeholder='Name*'
+                                    />
+                                    <p className={`text-red-400 error text-sm ${errors.name && "visible"}`}>{errors.name ? errors.name : "Please Fill Out this Field"}</p>
+                                </div>
+                                <div className="py-2 form-row">
+                                    <input
+                                        type="email"
+                                        placeholder="Email (Optional)"
+                                        name="email"
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        className={errors.email ? "invalid" : ""}
+                                    />
+                                    <p className={`text-red-400 error text-sm ${errors.email && "visible"}`}>{errors.email ? errors.email : "Please Fill Out this Field"}</p>
+                                </div>
+                            </div>
+                            
+                            <div className="py-2 form-row">
+                                <PhoneInput
+                                    type="tel"
+                                    name="mobile-number"
+                                    placeholder="Mobile Number*"
+                                    value={formData.mobileNumber}
+                                    onChange={handlePhoneChange}
+                                    className={errors.mobileNumber ? "phone-input-error" : ""}
+                                    country="IN"
+                                    defaultCountry="IN"
+                                    national="true"
+                                    international={false}
+                                />
+                                <p className={`text-red-400 error text-sm ${errors.mobileNumber && "visible"}`}>{errors.mobileNumber ? errors.mobileNumber : "Please Fill Out this Field"}</p>
+                            </div>
+
+                            <div className="py-2 form-row">
+                                <p className='form_label'>Select Budget*</p>
+
+                                <ToggleButtonGroup name={`price_range_${formId}`} className='price_range_group' type="radio" value={priceRange} onChange={(val) => setPriceRange(val)}>
+                                    <ToggleButton id={`${formId+"_1"}`} value={"1 Cr to 1.5 Cr"} className={`${priceRange === "1 Cr to 1.5 Cr" && 'active'}`}>
+                                        1 Cr to 1.5 Cr
+                                    </ToggleButton>
+                                    <ToggleButton id={`${formId+"_2"}`} value={"1.5 Cr to 2 Cr"}>
+                                        1.5 Cr to 2 Cr
+                                    </ToggleButton>
+                                    <ToggleButton id={`${formId+"_4"}`} value={"2 Cr Onwards"}>
+                                        2 Cr Onwards
+                                    </ToggleButton>
+                                </ToggleButtonGroup>
+                            </div>
+                            
+                            <p className={`checkbox_div flex items-center text-[10px] mt-5 ${formData.terms ? 'font-semibold' : 'font-extralight  text-gray-400'}`}>
+
+                                <label className="custom-checkbox">
+                                    <input 
+                                        type='checkbox' 
+                                        name="terms"
+                                        checked={formData.terms}
+                                        onChange={handleChange}
+                                        className={errors.terms ? "checkbox-error checkbox" : "checkbox"} 
+                                    /> 
+                                    <span className={errors.terms ? "checkbox-error checkmark" : "checkmark"}></span>
+                                </label>
+                                <span>I agree to be contacted by 'Ananta Aspire' and agents via WhatsApp, SMS, phone, email etc.</span>
+
+                                
+                            </p>
+                            <p className={`text-red-400 error text-sm ${errors.terms && "visible"}`}>{errors.terms ? errors.terms : "You must accept the terms"}</p>
+
+                            <div className="text-center flex items-center gap-5 justify-end">
+                                <input type="submit" value={loading ? "Processing..." : button ? button : 'Download Now'} disabled={loading} className={`submit_btn cursor-pointer`} />
+                            
+                            </div>
+                        </Fragment>
+                        }
                     
-                    <div className='form-row-flex'>
-                        <div className="py-2 form-row">
-                            <input
-                                type="text"
-                                name="name"
-                                value={formData.name}
-                                onChange={handleChange}
-                                className={errors.name ? "invalid" : ""}
-                                placeholder='Name*'
-                            />
-                            <p className={`text-red-400 error text-sm ${errors.name && "visible"}`}>{errors.name ? errors.name : "Please Fill Out this Field"}</p>
-                        </div>
-                        <div className="py-2 form-row">
-                            <input
-                                type="email"
-                                placeholder="Email (Optional)"
-                                name="email"
-                                value={formData.email}
-                                onChange={handleChange}
-                                className={errors.email ? "invalid" : ""}
-                            />
-                            <p className={`text-red-400 error text-sm ${errors.email && "visible"}`}>{errors.email ? errors.email : "Please Fill Out this Field"}</p>
-                        </div>
-                    </div>
-                    
-                    <div className="py-2 form-row">
-                        <PhoneInput
-                            type="tel"
-                            name="mobile-number"
-                            placeholder="Mobile Number*"
-                            value={formData.mobileNumber}
-                            onChange={handlePhoneChange}
-                            className={errors.mobileNumber ? "phone-input-error" : ""}
-                            country="IN"
-                            defaultCountry="IN"
-                            national="true"
-                            international={false}
-                        />
-                        <p className={`text-red-400 error text-sm ${errors.mobileNumber && "visible"}`}>{errors.mobileNumber ? errors.mobileNumber : "Please Fill Out this Field"}</p>
-                    </div>
-
-                    <div className="py-2 form-row">
-                        <p className='form_label'>Select Budget*</p>
-
-                        <ToggleButtonGroup name={`price_range_${formId}`} className='price_range_group' type="radio" value={priceRange} onChange={(val) => setPriceRange(val)}>
-                            <ToggleButton id={`${formId+"_1"}`} value={"1 Cr to 1.5 Cr"} className={`${priceRange === "1 Cr to 1.5 Cr" && 'active'}`}>
-                                1 Cr to 1.5 Cr
-                            </ToggleButton>
-                            <ToggleButton id={`${formId+"_2"}`} value={"1.5 Cr to 2 Cr"}>
-                                1.5 Cr to 2 Cr
-                            </ToggleButton>
-                            <ToggleButton id={`${formId+"_4"}`} value={"2 Cr Onwards"}>
-                                2 Cr Onwards
-                            </ToggleButton>
-                        </ToggleButtonGroup>
-                    </div>
-                    
-                    <p className={`checkbox_div flex items-center text-[10px] mt-5 ${formData.terms ? 'font-semibold' : 'font-extralight  text-gray-400'}`}>
-
-                        <label className="custom-checkbox">
-                            <input 
-                                type='checkbox' 
-                                name="terms"
-                                checked={formData.terms}
-                                onChange={handleChange}
-                                className={errors.terms ? "checkbox-error checkbox" : "checkbox"} 
-                            /> 
-                            <span className={errors.terms ? "checkbox-error checkmark" : "checkmark"}></span>
-                        </label>
-                        <span>I agree to be contacted by 'Ananta Aspire' and agents via WhatsApp, SMS, phone, email etc.</span>
-
-                        
-                    </p>
-                    <p className={`text-red-400 error text-sm ${errors.terms && "visible"}`}>{errors.terms ? errors.terms : "You must accept the terms"}</p>
-
-                    <div className="text-center flex items-center gap-5 justify-end">
-                        <input type="submit" value={loading ? "Processing..." : button ? button : 'Download Now'} disabled={loading} className={`submit_btn cursor-pointer`} />
-                      
-                    </div>
-
                 </div>
                 
-                )}
+                
                 {showSide && showSide === true &&
                         <div className="py-2 form-row we_get_row">
                             <p className='form_label'>What You Get</p>

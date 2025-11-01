@@ -7,7 +7,7 @@
 .amenities_grid .amenities_item {
     border: 2px solid var(--color-footer);
     text-align: center;
-    padding: 15px 8px;
+    padding: 20px 8px;
     border-radius: 5px;
     min-height: 170px;
 }

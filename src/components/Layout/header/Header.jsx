@@ -237,13 +237,13 @@ const Header = () => {
 
             <div className="header_right">
               <div className="header_right_top">
-                <Link to={"tel:+910000000000"} className="header_call blink">
+                <Link to={"tel:+919609600074"} className="header_call blink">
                   <img src={phoneIcon} alt="Phone" className="phone_icon" />
-                  +91 0000000000
+                  +91 9609600074
                 </Link>
                 <Button className="header_request_btn" onClick={() => openPriceForm("Request Exclusive Access to Project Details", "Our Team Will Share Accurate Details on Pricing, Plans & Possession", "Send Request", "request")}>Request Details</Button>
               </div>
-              <p className="header_rera_number">PBRERA- XXXXX-XXXXXX</p>
+              <p className="header_rera_number">PBRERA-SAS79-PR0777</p>
             </div>
 
           </Container>
@@ -253,21 +253,21 @@ const Header = () => {
         
       {/* Download Brochure Button */}
       <div className='sticky h-0 z-20' style={{ top: "45%" }}>
-        <button tabIndex='-1' className="w-max absolute rotate-90 download-broucher-btn" style={{ right: "-90px" }} onClick={() => openPriceForm("Schedule Your Exclusive Free Site Visit", "Experience Premium Living Firsthand at Ananta Aspire", "Schedule Visit", "schedule")}>Schedule a Free Site Vite</button>
+        <button tabIndex='-1' className="w-max absolute rotate-90 download-broucher-btn" style={{ right: "-90px" }} onClick={() => openPriceForm("Schedule Your Exclusive Free Site Visit", "Experience Premium Living Firsthand at Ananta Aspire", "Schedule Visit", "schedule")}>Schedule a Free Site Visit</button>
       </div>
 
-      {/* <div className='sticky h-0 z-20' style={{ top: "80%" }}>
-        <a href="https://wa.me/+910000000000" rel="noreferrer" target="_blank" className="w-max absolute" style={{ right: "30px" }}>
+      <div className='sticky h-0 z-20' style={{ top: "90%" }}>
+        <a href="https://wa.me/+919609600074" rel="noreferrer" target="_blank" className="whatsapp_link_text w-max absolute" style={{ right: "25px" }}>
+          <img src={whatsappIcon} alt="Whatsapp" className="header_btns_float whatsapp" />
+        </a>
+      </div>
+
+      {/* <div className="fixed_btns_header z-20">
+        <img src={downloadIcon} alt="Download" className="header_btns_float download" onClick={handleOpen} />
+        <a href="https://wa.me/+919609600074" rel="noreferrer" target="_blank">
           <img src={whatsappIcon} alt="Whatsapp" className="header_btns_float whatsapp" />
         </a>
       </div> */}
-
-      <div className="fixed_btns_header z-20">
-        {/* <img src={downloadIcon} alt="Download" className="header_btns_float download" onClick={handleOpen} /> */}
-        <a href="https://wa.me/+910000000000" rel="noreferrer" target="_blank">
-          <img src={whatsappIcon} alt="Whatsapp" className="header_btns_float whatsapp" />
-        </a>
-      </div>
 
       <PriceDetailsForm />
       <RequestDetailsForm />

@@ -58,7 +58,7 @@ const AboutUs = () => {
                                 <Button className="request_btn" onClick={() => openPriceForm("Enquire Now to Know More", "Connect with Our Team for Brochure, Prices & Site Visit Details", "Enquire Now", "explore")}>Enquire Now</Button>
                             </div>
                             <div className="about_us_right_content">
-                                <img src={aboutImg} alt="Ananta Aspire luxury residential project exterior view on NH-7 Patiala Highway" className="about_img" />
+                                <img src={aboutImg} alt="Relaxing pool area at AnantaAspire Zirakpur luxury flats" className="about_img" />
                             </div>
                         </div>
                         <div className="key_heightlight padding-top" id="keyhighlight">
