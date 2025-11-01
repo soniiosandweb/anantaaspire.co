@@ -1,6 +1,6 @@
 .newly_launched_section {
     position: relative;
-    background-color: var(--color-footer);
+    background-color: var(--color-black);
     height: 70vh;
     min-height: 600px;
 }
@@ -79,6 +79,9 @@
     font-family: var(--font-medium);
     color: var(--color-white);
     font-size: 18px;
+}
+.bottom_right_launched_text.bold{
+    font-weight: 600;
 }
 .newly_launched_eyes {
     width: 119px;
