@@ -139,7 +139,7 @@ const EnquireForm = ({ title, setOpen, button, formId, showSide }) => {
                             <>
                                 <span className='thanku-txt'>Thank You!</span>
                                 <div className='flex flex-col success_msg'>
-                                    <span>We appreciate your time. Our team will connect with you shortly to help you explore the world of premium living at Ananta Aspire — where luxury, comfort, and convenience come together seamlessly.</span>
+                                    <span>Our team will connect soon to help you explore premium living at Ananta Aspire — where luxury meets comfort.</span>
                                 </div>
                             </>
                         );

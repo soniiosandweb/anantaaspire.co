@@ -8,7 +8,7 @@ import eyes from "../../../assests/images/eyes.png";
 const NewlyLaunched = () => {
     return (
         <div className="newly_launched_section">
-            <img src={launchedImg} alt="Discover Our Newly Launched Property" className="newly_launched_image" />
+            <img src={launchedImg} alt="Ananta Aspire team celebrating the project launch of luxury flats in Zirakpur with joy and unity" className="newly_launched_image" />
             <Container>
                 <Row>
                     <Col>
