@@ -27,7 +27,7 @@ const PriceList = () => {
                                             <Nav.Link eventKey="4+1BHK">4+1 BHK Apartments</Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Nav.Link eventKey="penthouse">Penthouse/Duplex</Nav.Link>
+                                            <Nav.Link eventKey="penthouse">Penthouse / Duplex</Nav.Link>
                                         </Nav.Item>
                                     </Nav>
                                 </div>

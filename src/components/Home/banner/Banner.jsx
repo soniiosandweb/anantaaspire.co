@@ -87,7 +87,7 @@ const slides = [
 ]
 
 const listsItem = [
-    "3 BHK / 3+1 BHK / 4+1 BHK & Penthouse/ Duplex",
+    "3 BHK / 3+1 BHK / 4+1 BHK & Penthouse / Duplex",
 ]
 
 const Banner = () => {

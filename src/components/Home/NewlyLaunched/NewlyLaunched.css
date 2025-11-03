@@ -60,7 +60,7 @@
 .newly_launched_right_col .main_heading {
     color: var(--color-yellow);
     margin-bottom: 1rem;
-    max-width: 700px;
+    max-width: 655px;
 }
 .newly_launched_right_col .main_heading::after {
     background-color: var(--color-yellow);
@@ -82,6 +82,7 @@
 }
 .bottom_right_launched_text.bold{
     font-weight: 600;
+    font-size: 20px;
 }
 .newly_launched_eyes {
     width: 119px;
@@ -107,12 +108,18 @@
     .bottom_right_launched_text {
         font-size: 16px;
     }
+    .bottom_right_launched_text.bold {
+        font-size: 17px;
+    }
     .newly_launched_section {
         height: unset;
         min-height: auto;
     }
     .newly_launched_right_col .main_heading  {
-        font-size: 30px;
+        font-size: 25px;
+    }
+    .newly_launched_eyes {
+        width: 90px;
     }
 }
 @media (max-width: 767px) {
