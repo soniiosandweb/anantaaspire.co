@@ -101,7 +101,14 @@
     font-family: var(--font-semibold);
     filter: blur(4px);
 }
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
+    .floor_plans_nav .nav-link {
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1199px) {
+    
     .floor_plans_right {
         gap: 1rem;
     }
@@ -111,10 +118,7 @@
     .floor_right_blur_text {
         font-size: 20px;
     }
-    .floor_plans_nav .nav-link {
-        padding: 8px 10px;
-        font-size: 16px;
-    }
+    
 }
 @media (max-width: 991px) {
     .floor_palns_flex .floor_text_content,

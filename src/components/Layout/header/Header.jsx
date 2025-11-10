@@ -252,8 +252,8 @@ const Header = () => {
 
         
       {/* Download Brochure Button */}
-      <div className='sticky h-0 z-20' style={{ top: "45%" }}>
-        <button tabIndex='-1' className="w-max absolute rotate-90 download-broucher-btn" style={{ right: "-90px" }} onClick={() => openPriceForm("Schedule Your Exclusive Free Site Visit", "Experience Premium Living Firsthand at Ananta Aspire", "Schedule Visit", "schedule")}>Schedule a Free Site Visit</button>
+      <div className='sticky h-0 z-20' style={{ top: "50%" }}>
+        <button tabIndex='-1' className="w-max absolute -rotate-90 download-broucher-btn" style={{ left: "-100px" }} onClick={() => openPriceForm("Schedule Your Exclusive Free Site Visit", "Experience Premium Living Firsthand at Ananta Aspire", "Schedule Visit", "schedule")}>Schedule a Free Site Visit</button>
       </div>
 
       <div className='sticky h-0 z-20' style={{ top: "90%" }}>

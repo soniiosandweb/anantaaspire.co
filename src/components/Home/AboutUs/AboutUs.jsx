@@ -48,11 +48,11 @@ const AboutUs = () => {
                 <Row>
                     <Col>
                         <h2 className="main_heading">About the Project</h2>
-                        <p className="about_sub_text">A Vision of Luxury, Crafted for the Modern Elite</p>
-                        <p className="paragraph">Experience a lifestyle that blends sophistication with serenity. This upcoming residential marvel on the Patiala-Chandigarh Highway is designed to elevate everyday living — from grand entrances to lush green landscapes, from smart interiors to exclusive leisure zones.</p>
-
+                        <p className="about_sub_text">A Vision of Luxury, Meticulously Crafted for the Modern Elite Who Desire Nothing Less Than Perfection.</p>
+                        
                         <div className="about_us_flex_div">
                             <div className="about_us_left">
+                                <p className="paragraph pb-5">Experience a lifestyle that blends sophistication with serenity. This upcoming residential marvel on the Patiala-Chandigarh Highway is designed to elevate everyday living — from grand entrances to lush green landscapes, from smart interiors to exclusive leisure zones.</p>
                                 <p className="paragraph">It's not just a home.</p>
                                 <p className="paragraph">It's your statement of success.</p>
                                 <Button className="request_btn" onClick={() => openPriceForm("Enquire Now to Know More", "Connect with Our Team for Brochure, Prices & Site Visit Details", "Enquire Now", "explore")}>Enquire Now</Button>

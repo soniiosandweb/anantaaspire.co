@@ -53,21 +53,21 @@
     display: flex;
     gap: 2rem;
     align-items: start;
+    justify-content: space-between;
     margin-top: 2rem;
 }
 .about_us_flex_div .about_us_left {
     flex: 1;
     width: 100%;
+    max-width: 436px;
 }
 .about_us_right_content {
-    flex: 0 0 788px;
+    flex: 1;
+    max-width: 650px;
 }
 .about_us_right_content .about_img {
     width: 100%;
-    border-radius: 25px;
-    height: 100%;
-    object-fit: cover;
-    max-height: 278px;
+    border-radius: 30px;
 }
 .main_heading {
     font-size: 35px;
@@ -109,7 +109,7 @@
     color: var(--color-black);
     border: 1px solid var(--color-yellow);
     border-radius: 50px;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .about_us_section .request_btn:hover,
 .about_us_section .request_btn:active {
@@ -119,41 +119,62 @@
 }
 .key_heightlight .main_heading {
     color: var(--color-yellow);
+    font-size: 25px;
 }
 .key_heightlight .main_heading::after {
     background-color: var(--color-yellow);
 }
-@media (max-width: 991px) {
-    .about_us_right_content {
-        flex: 0 0 350px;
+@media (max-width: 1440px) {
+    .about_lists_top .about_lists_item,
+    .about_us_section .paragraph {
+        font-size: 16px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
+    .main_heading {
+        font-size: 30px;
+    }
+    .about_lists_top .about_lists_item,
+    .about_us_section .paragraph {
+        font-size: 16px;
+    }
+}
+@media (max-width: 991px) {
     .about_us_flex_div {
         flex-direction: column;
     }
     .about_us_right_content {
         flex: 1;
         width: 100%;
+        max-width: 100%;
     }
+    .about_us_flex_div .about_us_left {
+        max-width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    
     .about_lists_top .about_lists_item {
         font-size: 16px;
     }
     .about_lists_top {
         grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
     }
     .main_heading {
         font-size: 25px;
     }
     .about_sub_text {
         font-size: 20px;
+        line-height: 25px;
     }
-}
-@media (max-width: 500px) {
     .about_lists_top .about_lists_item .about_lists_item_img {
         width: 30px;
         height: 30px;
     }
+}
+@media (max-width: 500px) {
+    
     .about_lists_top .about_lists_item {
         font-size: 14px;
     }

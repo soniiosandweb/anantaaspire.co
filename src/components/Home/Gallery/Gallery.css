@@ -35,6 +35,7 @@
 .gallery_images_block {
     position: relative;
     margin-top: 3rem;
+    padding-top: 6rem;
 }
 .gallery_images_block::before {
     content: "";

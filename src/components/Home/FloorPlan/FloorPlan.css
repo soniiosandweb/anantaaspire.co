@@ -42,22 +42,39 @@
     color: var(--color-black) !important;
 }
 .floor_plan_btn_heading {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
     font-weight: 600;
     font-family: var(--font-semibold);
     color: var(--color-white);
 }
-@media (max-width: 1199px) {
+@media (max-width: 1440px) {
     .floor_plan_btn_heading {
         font-size: 16px;
+        line-height: 20px;
     }
     .floor_plan_btn_block .floor_plans_btn {
         font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+@media (max-width: 1199px) {
+    .floor_plan_btn_heading {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .floor_plan_grid_item .floor_blans_image img {
+        height: 150px;
+    }
+    .floor_plan_btn_block .floor_plans_btn {
+        font-size: 13px;
         padding: 6px 8px;
     }
     .floor_plan_grid_item .floor_blans_image {
-        padding: 10px;
+        padding: 6px;
+    }
+    .floor_plan_btn_block {
+        padding: 8px 10px;
     }
 }
 @media (max-width: 991px) {
