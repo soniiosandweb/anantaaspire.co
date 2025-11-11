@@ -1,9 +1,10 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Form, InputGroup, Row } from "react-bootstrap";
 import "./NewlyLaunched.css";
 import launchedImg from "../../../assests/images/launched_group.png";
 // import { Link } from "react-router-dom";
 // import phoneIcon from "../../../assests/images/phone-call.png";
 import eyes from "../../../assests/images/eyes.png";
+import sendIcon from "../../../assests/images/send_icon.png";
 
 const NewlyLaunched = () => {
     return (
@@ -29,8 +30,25 @@ const NewlyLaunched = () => {
                                 <h3 className="unveiling_sub_heading">Experience the pinnacle of luxury living with <span style={{ color: "#FF8C27"}}>Ananta</span>, located in the heart of Zirakpur</h3>
 
                                 <div className="newly_launched_right_bottom">
-                                    <p className="bottom_right_launched_text bold">A Rare Investment Opportunity Awaits</p>
-                                    <p className="bottom_right_launched_text">Register now to stay informed and invest in elegance before it's unveiled.</p>
+                                    <div className="newly_launched_bottom_left">
+                                        <p className="bottom_right_launched_text bold">A Rare Investment Opportunity Awaits</p>
+                                        <p className="bottom_right_launched_text">Register now to stay informed and invest in elegance before it's unveiled.</p>
+                                    </div>
+                                    <div className="newly_launched_bottom_right">
+                                        <div className="newly_launched_form">
+                                            <InputGroup className="mb-3">
+                                                <Form.Control
+                                                    placeholder="Email ID / Contact Number"
+                                                    aria-label="Email ID / Contact Number"
+                                                    aria-describedby="email_contact"
+                                                    required
+                                                />
+                                                <Button id="email_contact_btn" className="email_contact_btn">
+                                                    <img src={sendIcon} alt="Send" className="send_button_icon" />
+                                                </Button>
+                                            </InputGroup>
+                                        </div>
+                                    </div>
                                 </div>
                                 <img src={eyes} alt="Eyes" className="newly_launched_eyes" />
                             </div>
