@@ -12,6 +12,7 @@
     top: 0;
     left: 0;
     border-top-left-radius: 25px;
+    object-fit: cover;
 }
 .contact_us_section .contact_us_flex {
     display: flex;

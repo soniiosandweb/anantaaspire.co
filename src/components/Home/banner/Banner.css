@@ -252,8 +252,8 @@
         line-height: 22px;
     }
     .banner_slider_red_text {
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 16px;
         padding: 8px 10px;
     }
     .banner_slider_item .col {
@@ -608,6 +608,7 @@
     }
     .right_fixed_sidebar .price_range_group .btn {
         font-size: 12px;
+        padding: 5px 8px;
     }
     .right_fixed_sidebar .enquire-form .checkbox_div, 
     .right_fixed_sidebar .we_get_div_grid .we_get_div_item .we_get_text {
@@ -631,10 +632,15 @@
     .right_fixed_sidebar .bottom_fixed_sidebar {
         padding: 20px 10px;
     }
+    
 }
 @media (max-width: 400px) {
     .right_fixed_sidebar {
         max-width: 90%;
         margin: 30px auto;
+    }
+    .right_fixed_sidebar .price_range_group .btn {
+        font-size: 10px;
+        padding: 5px 3px;
     }
 }

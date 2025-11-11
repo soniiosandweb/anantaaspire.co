@@ -183,8 +183,8 @@
         box-shadow: unset;
     }
     .main_header .navbar-toggler .menu_icon {
-        width: 28px;
-        height: 28px;
+        width: 30px;
+        height: 30px;
         object-fit: contain;
     }
     .header_right .header_call {
@@ -213,35 +213,64 @@
 }
 @media (max-width: 400px) {
     .main_header .navbar-brand .logo_header {
-        height: 30px;
+        height: 32px;
     }
     .main_header .header_right .header_request_btn {
         padding: 2px 3px;
     }
     .header_right .header_call {
-        font-size: 10px;
+        font-size: 12px;
         gap: 2px;
     }
     .header_right .header_call img {
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
     }
     .main_header .navbar-toggler .menu_icon {
-        width: 20px;
-        height: 20px;
+        width: 28px;
+        height: 28px;
     }
     .main_header .header_right .header_request_btn, 
     .header_rera_number {
         font-size: 10px;
     }
     .main_header .navbar-toggler {
-        padding-right: 2px;
+        padding-right: 5px;
     }
     .main_header .header_right .header_right_top {
-        gap: 2px;
+        gap: 8px;
     }
     .main_header .container-fluid {
         padding: 0 8px;
+    }
+    .main_header .header_right {
+        gap: 8px;
+    }
+}
+@media (max-width: 352px) {
+    .main_header .navbar-brand .logo_header {
+        height: 30px;
+    }
+    .header_right .header_call {
+        font-size: 11px;
+    }
+    .main_header .navbar-toggler {
+        padding-right: 3px;
+    }
+    .header_right .header_call img {
+        width: 10px;
+        height: 10px;
+    }
+    .main_header .navbar-toggler .menu_icon {
+        width: 24px;
+        height: 24px;
+    }
+    .main_header .header_right .header_request_btn, 
+    .header_rera_number {
+        font-size: 9px;
+    }
+    .main_header .header_right .header_right_top {
+        gap: 5px;
     }
 }
 /* Fixed Buttons */

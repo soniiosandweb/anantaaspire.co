@@ -97,6 +97,9 @@
     .gallery_images_block .gallery_bg_image {
         height: 350px;
     }
+    .gallery_images_block {
+        padding-top: 4rem;
+    }
 }
 @media (max-width: 480px) {
     .gallery-images-list .gallery-image {

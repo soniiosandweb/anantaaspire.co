@@ -308,9 +308,10 @@
         font-size: 16px;
     }
     .newly_launched_right_bottom {
-        margin: 3rem 0 0.5rem;
+        margin: 2.5rem 0 0.5rem;
         flex-direction: column;
-        justify-contain: start;
+        justify-content: start;
+        gap: 20px;
         align-items: start;
     }
     .newly_launched_bottom_left,
@@ -318,7 +319,7 @@
         max-width: 100%;
     }
     .newly_launched_section {
-        min-height: 465px;
+        min-height: 490px;
     }
     .newly_launched_text_img .rera_phone_flex {
         font-size: 12px;
@@ -328,6 +329,7 @@
     }
     .newly_launched_eyes {
         width: 90px;
+        left: -15px;
     }
     .newly_launched_text_img .rera_phone_flex .phone_content img {
         width: 14px;
@@ -386,7 +388,8 @@
         padding: 10px 15px;
     }
     .newly_launched_eyes {
-        width: 70px;
+        width: 60px;
+        left: -10px;
     }
     .newly_launched_text_img .rera_phone_flex .phone_content img {
         width: 12px;
@@ -394,13 +397,13 @@
     }
 
     .newly_launched_section .newly_launched_text_img  {
-        width: 40;
+        width: 42%;
     }
     .newly_launched_right_col {
-        max-width: 60%;
+        max-width: 58%;
     }
     .newly_launched_left_col {
-        max-width: 40%;
+        max-width: 42%;
     }
     .launched_image_content {
         margin: 25px auto auto;
