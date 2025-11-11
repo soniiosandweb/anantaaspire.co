@@ -74,6 +74,7 @@
     font-weight: 900;
     font-family: var(--font-black);
     max-width: 655px;
+    padding-top: 15px;
 }
 .newly_launched_right_col .main_heading::after {
     background-color: var(--color-yellow);
@@ -301,6 +302,9 @@
     .newly_launched_right_col {
         padding: 2.5rem 0rem 2.5rem 1rem;
     }
+    .newly_launched_right_col .main_heading {
+        padding-top: 10px;
+    }
     .unveiling_sub_heading {
         font-size: 18px;
     }
@@ -367,6 +371,7 @@
     }
     .newly_launched_right_col .main_heading  {
         font-size: 25px;
+        padding-top: 6px;
     }
     .newly_launched_text_img .rera_phone_flex {
         font-size: 9.5px;
