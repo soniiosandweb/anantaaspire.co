@@ -130,7 +130,7 @@ const EnquireForm = ({ title, setOpen, button, formId, showSide }) => {
                             <>
                                 <span className='thanku-txt'>Thank You!</span>
                                 <div className='flex flex-col success_msg'>
-                                    <span>We’ve received your enquiry for Ananta Aspire. Our team will contact you soon to provide all the details you need.</span>
+                                    <span>Thanks for your enquiry! Our team will contact you soon with all the details.</span>
                                 </div>
                             </>
                         );
@@ -139,7 +139,7 @@ const EnquireForm = ({ title, setOpen, button, formId, showSide }) => {
                             <>
                                 <span className='thanku-txt'>Thank You!</span>
                                 <div className='flex flex-col success_msg'>
-                                    <span>Our team will connect soon to help you explore premium living at Ananta Aspire — where luxury meets comfort.</span>
+                                    <span>Our team will connect soon to help you explore Ananta Aspire — where luxury meets comfort.</span>
                                 </div>
                             </>
                         );
@@ -148,7 +148,7 @@ const EnquireForm = ({ title, setOpen, button, formId, showSide }) => {
                             <>
                                 <span className='thanku-txt'>Thank You!</span>
                                 <div className='flex flex-col success_msg'>
-                                    <span>Our team will contact you shortly to confirm your site tour at Ananta Aspire and assist with all the details.</span>
+                                    <span>Our team will contact you soon to confirm your Ananta Free tour.</span>
                                 </div>
                             </>
                         );
@@ -166,7 +166,7 @@ const EnquireForm = ({ title, setOpen, button, formId, showSide }) => {
                             <>
                                 <span className='thanku-txt'>Thank You!</span>
                                 <div className='flex flex-col success_msg'>
-                                    <span>We've received your enquiry for Ananta Aspire. Our team will contact you soon to provide all the details you need.</span>
+                                    <span>Thanks for your enquiry! Our team will contact you soon with details.</span>
                                 </div>
                             </>
                         );
