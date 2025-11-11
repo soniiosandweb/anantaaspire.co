@@ -20,6 +20,11 @@
 }
 
 @font-face {
+  font-family: "Montserrat-Black";
+  src: url('./assests/font/Montserrat-Black.ttf');
+}
+
+@font-face {
   font-family: "Mono-Dance";
   src: url('./assests/font/MoonDance-Regular.ttf');
 }
@@ -141,6 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   --color-header-bg: #243043B0;
   --font-semibold: "Montserrat-SemiBold";
   --font-bold: "Montserrat-Bold";
+  --font-black: "Montserrat-Black";
   --font-medium: "Montserrat-Medium";
   --font-regular: "Montserrat";
   --bs-border-width: 0;
