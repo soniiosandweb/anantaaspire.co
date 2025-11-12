@@ -151,7 +151,7 @@
     text-align: center;
 }
 .success-wrapper .thanku-txt {
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 600;
     font-family: var(--font-semibold);
     margin-bottom: 1rem;
@@ -212,7 +212,7 @@
         width: 100%;
     }
     .success-wrapper .thanku-txt {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
 @media (max-width: 767px) {
@@ -267,9 +267,6 @@
     }
     .contact_us_section {
         padding-top: 300px;
-    }
-    .success-wrapper .thanku-txt {
-        font-size: 35px;
     }
 }
 @media (max-width: 380px) {
