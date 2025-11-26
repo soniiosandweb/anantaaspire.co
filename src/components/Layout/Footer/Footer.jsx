@@ -79,7 +79,7 @@ const Footer = () => {
                                         className='header-logo w-40 footer_logo'
                                     />
                                 </NavLink>
-                                <p className="footer-text text-sm">At the heart of innovation and excellence, we bring visionary real estate developments that redefine modern living. Our upcoming project on the Patiala-Chandigarh Highway blends design, comfort, and luxury to create spaces that inspire a better lifestyle.</p>
+                                <p className="footer-text text-sm">At the heart of innovation and excellence, we bring visionary real estate developments that redefine modern living. Our upcoming project Anantaaspire flats in Zirakpur on the Patiala-Chandigarh Highway blends design, comfort, and luxury to create spaces that inspire a better lifestyle.</p>
                             </div>
 
                             <div className="w-full md:w-1/2 flex flex-col md:flex-row gap-[40px] md:gap-[20px] justify-between">

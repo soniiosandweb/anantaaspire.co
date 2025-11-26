@@ -52,13 +52,13 @@ const AboutUs = () => {
                         
                         <div className="about_us_flex_div">
                             <div className="about_us_left">
-                                <p className="paragraph pb-5">Experience a lifestyle that blends sophistication with serenity. This upcoming residential marvel on the Patiala-Chandigarh Highway is designed to elevate everyday living — from grand entrances to lush green landscapes, from smart interiors to exclusive leisure zones.</p>
+                                <p className="paragraph pb-5">Experience a lifestyle that blends sophistication with serenity. These Anantaaspire flats in Zirakpur are an upcoming residential marvel on the Patiala-Chandigarh Highway designed to elevate everyday living — from grand entrances to lush green landscapes, from smart interiors to exclusive leisure zones.</p>
                                 <p className="paragraph">It's not just a home.</p>
                                 <p className="paragraph">It's your statement of success.</p>
                                 <Button className="request_btn" onClick={() => openPriceForm("Enquire Now to Know More", "Connect with Our Team for Brochure, Prices & Site Visit Details", "Enquire Now", "explore")}>Enquire Now</Button>
                             </div>
                             <div className="about_us_right_content">
-                                <img src={aboutImg} alt="Relaxing pool area at AnantaAspire Zirakpur luxury flats" className="about_img" />
+                                <img src={aboutImg} alt="Relaxing pool area at Ananta Aspire Zirakpur luxury flats" className="about_img" />
                             </div>
                         </div>
                         <div className="key_heightlight padding-top" id="keyhighlight">

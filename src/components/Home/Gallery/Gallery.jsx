@@ -25,50 +25,50 @@ const Gallery = () => {
     const images = [
         {
             src: gallery1,
-            title: "Luxury kitchen at AnantaAspire flats in Zirakpur",
+            title: "Luxury kitchen at Ananta Aspire flats in Zirakpur",
             rows: 1,
             cols: 1,
         },
         {
             src: gallery2,
-            title: "Modern sofa set with chandelier in AnantaAspire flats for sale in Zirakpur",
+            title: "Modern sofa set with chandelier in Ananta Aspire flats for sale in Zirakpur",
             rows: 2,
             cols: 2,
         },
         {
             src: gallery3,
-            title: "Modern bedroom interior at AnantaAspire, one of the new residential projects in Zirakpur",
+            title: "Modern bedroom interior at Ananta Aspire, one of the new residential projects in Zirakpur",
             rows: 3,
             cols: 2,
         },
         {
             src: gallery4,
-            title: "Modern living room with sofa set in AnantaAspire 3BHK flats Zirakpur",
+            title: "Modern living room with sofa set in Ananta Aspire 3BHK flats Zirakpur",
         },
         {
             src: gallery5,
-            title: "High-rise building view of AnantaAspire 4BHK luxury apartments in Zirakpur",
+            title: "High-rise building view of Ananta Aspire 4BHK luxury apartments in Zirakpur",
             rows: 3,
             cols: 2,
         },
         {
             src: gallery6,
-            title: "Modern dining room at AnantaAspire Zirakpur flats 3BHK with elegant interiors and premium design",
+            title: "Modern dining room at Ananta Aspire Zirakpur flats 3BHK with elegant interiors and premium design",
             cols: 1,
         },
         {
             src: gallery7,
-            title: "Safe and modern children’s play area at AnantaAspire 3BHK luxury flats in Zirakpur",
+            title: "Safe and modern children’s play area at Ananta Aspire 3BHK luxury flats in Zirakpur",
             rows: 2,
             cols: 2,
         },
         {
             src: gallery8,
-            title: "High-speed WiFi connectivity facility at AnantaAspire flats in Zirakpur",  
+            title: "High-speed WiFi connectivity facility at Ananta Aspire flats in Zirakpur",  
         },
         {
             src: gallery9,
-            title: "Elegant interior view of AnantaAspire luxury flats in Zirakpur with premium furnishings",
+            title: "Elegant interior view of Ananta Aspire luxury flats in Zirakpur with premium furnishings",
         }
     ]
 

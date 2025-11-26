@@ -114,7 +114,7 @@ const NewlyLaunched = () => {
 
                             <div className="newly_launched_right_col">
                                 <h2 className="main_heading">Discover Our Newly Launched Property</h2>
-                                <h3 className="unveiling_sub_heading">Experience the pinnacle of luxury living with <span style={{ color: "#FF8C27"}}>Ananta</span>, located in the heart of Zirakpur</h3>
+                                <h3 className="unveiling_sub_heading">Experience the pinnacle of luxury living with <span style={{ color: "#FF8C27"}}>Ananta Aspire</span> Zirakpur, located in the heart of Zirakpur</h3>
 
                                 <div className="newly_launched_right_bottom">
                                     <div className="newly_launched_bottom_left">

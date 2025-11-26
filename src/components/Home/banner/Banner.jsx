@@ -49,7 +49,7 @@ const slides = [
         text: "Redefining the Essence of Modern Luxury",
         subtext: "Luxury Flats Starting at Just ₹1.7 Cr",
         image: banner1,
-        imageAlt: "Relaxing near shed area in AnantaAspire 3 BHK luxury flats in Zirakpur",
+        imageAlt: "Relaxing near shed area in Ananta Aspire 3 BHK luxury flats in Zirakpur",
         smallAlt: "Families Have Mooved In",
     },
     {
@@ -57,7 +57,7 @@ const slides = [
         text: "Where Smart Design Meets Luxury Comfort",
         subtext: "Luxury Flats Starting at Just ₹1.7 Cr",
         image: banner4,
-        imageAlt: "Green garden around the AnantaAspire building, one of the new residential projects in Zirakpur offering modern living amidst nature",
+        imageAlt: "Green garden around the Ananta Aspire building, one of the new residential projects in Zirakpur offering modern living amidst nature",
         smallAlt: "Ananta Aspire",
     },
     {
@@ -65,7 +65,7 @@ const slides = [
         text: "Experience Intelligent Spaces Crafted for Modern Minds",
         subtext: "Luxury Flats Starting at Just ₹1.7 Cr",
         image: banner2,
-        imageAlt: "Girl standing near AnantaAspire building night view showcasing luxury flats in Zirakpur",
+        imageAlt: "Girl standing near Ananta Aspire building night view showcasing luxury flats in Zirakpur",
         smallAlt: "Ananta Aspire",
     },
     {
@@ -73,7 +73,7 @@ const slides = [
         text: "Step Into the Future of Refined, Intelligent Living",
         subtext: "Luxury Flats Starting at Just ₹1.7 Cr",
         image: banner5,
-        imageAlt: "Beautiful illuminated night view of AnantaAspire luxury flats for sale in Zirakpur",
+        imageAlt: "Beautiful illuminated night view of Ananta Aspire luxury flats for sale in Zirakpur",
         smallAlt: "Ananta Aspire",
     },
     {

@@ -67,8 +67,8 @@ const Connectivity = () => {
                     <Col>
                         <h2 className="main_heading"> Seamless Connectivity</h2>
                         <h3 className="connectivity_subheading">Strategically located on the Patiala-Chandigarh Highway</h3>
-                        <p className="connectivity_content">this project offers exceptional access to everything that defines modern living — business hubs, educational institutions, healthcare facilities, and entertainment zones — all just minutes away.</p>
-                        <p className="connectivity_content">Enjoy the perfect blend of urban convenience and peaceful surroundings, making it one of the most sought-after addresses in the region.</p>
+                        <p className="connectivity_content">This project offers exceptional access to everything that defines modern living — business hubs, educational institutions, healthcare facilities, and entertainment zones — all just minutes away.</p>
+                        <p className="connectivity_content">Enjoy the perfect blend of urban convenience and peaceful surroundings, making Ananta Aspire Zirakpur one of the most sought-after addresses in the region.</p>
 
                         <div className='amenities_grid padding-top'>
                             {connectivityItems.map((item,i) => (

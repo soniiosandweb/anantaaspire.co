@@ -6,7 +6,7 @@ import contactImg from "../../../assests/images/contact-img.jpg";
 const ContactUs = () => {
     return (
         <div className="contact_us_section padding-top padding-bottom" id="contact">
-            <img src={contactImg} alt="Well-designed library room inside AnantaAspire flats for sale in Zirakpur" className="contact_bg_image" />
+            <img src={contactImg} alt="Well-designed library room inside Ananta Aspire flats for sale in Zirakpur" className="contact_bg_image" />
             <Container>
                 <Row>
                     <Col>
