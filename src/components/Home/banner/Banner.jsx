@@ -1,20 +1,21 @@
 import "./Banner.css";
 import Slider from "react-slick";
-import banner1 from "../../../assests/images/banner/banner1.jpg";
-import banner2 from "../../../assests/images/banner/banner2.png";
-import banner3 from "../../../assests/images/banner/banner3.png";
-import banner4 from "../../../assests/images/banner/banner4.png";
-import banner5 from "../../../assests/images/banner/banner5.png";
 import { Col, Container, Row } from "react-bootstrap";
 import { useState } from "react";
 import EnquireForm from "../../Layout/EnquireForm/EnquireForm";
 
-import telephone from "../../../assests/images/telephone.png";
-import appIcon from "../../../assests/images/app-icon.png";
-import rupee from "../../../assests/images/rupee.png";
-import business from "../../../assests/images/businessman.png";
-import operator from "../../../assests/images/operator.png";
-import carIcon from "../../../assests/images/car-icon.png";
+const banner1 = `${process.env.REACT_APP_API_URL}/assests/images/banner/banner1.webp`;
+const banner2 = `${process.env.REACT_APP_API_URL}/assests/images/banner/banner2.webp`;
+const banner3 = `${process.env.REACT_APP_API_URL}/assests/images/banner/banner3.webp`;
+const banner4 = `${process.env.REACT_APP_API_URL}/assests/images/banner/banner4.webp`;
+const banner5 = `${process.env.REACT_APP_API_URL}/assests/images/banner/banner5.webp`;
+
+const telephone = `${process.env.REACT_APP_API_URL}/assests/images/telephone.png`;
+const appIcon = `${process.env.REACT_APP_API_URL}/assests/images/app-icon.png`;
+const rupee = `${process.env.REACT_APP_API_URL}/assests/images/rupee.png`;
+const business = `${process.env.REACT_APP_API_URL}/assests/images/businessman.png`;
+const operator = `${process.env.REACT_APP_API_URL}/assests/images/operator.png`;
+const carIcon = `${process.env.REACT_APP_API_URL}/assests/images/car-icon.png`;
 
 const weGetOptions = [
     {

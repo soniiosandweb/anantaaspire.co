@@ -1,9 +1,10 @@
 import { faClose } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Dialog } from "@mui/material";
-import logo from "../../../assests/images/logo-new-black.png";
 import EnquireForm from "../EnquireForm/EnquireForm";
 import { useFormContext } from "../FormContext";
+
+const logo = `${process.env.REACT_APP_API_URL}/assests/images/logo-new-black.png`;
 
 const PriceDetailsForm = () => {
 

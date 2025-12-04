@@ -1,13 +1,14 @@
 import "./FloorPlan.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import floor1 from "../../../assests/images/floorplan/4bhk+1.png";
-import floor2 from "../../../assests/images/floorplan/3bhk+1.png";
-import floor3 from "../../../assests/images/floorplan/3bhk.png";
-import floor4 from "../../../assests/images/floorplan/pent-house.png";
 import Lightbox from "yet-another-react-lightbox";
 import { Fullscreen, Zoom } from "yet-another-react-lightbox/plugins";
 import { useState } from "react";
 import { useFormContext } from "../../Layout/FormContext";
+
+const floor1 = `${process.env.REACT_APP_API_URL}/assests/images/floorplan/4bhk+1.webp`;
+const floor2 = `${process.env.REACT_APP_API_URL}/assests/images/floorplan/3bhk+1.webp`;
+const floor3 = `${process.env.REACT_APP_API_URL}/assests/images/floorplan/3bhk.webp`;
+const floor4 = `${process.env.REACT_APP_API_URL}/assests/images/floorplan/pent-house.webp`;
 
 const FloorPlan = () => {
 

@@ -1,14 +1,15 @@
 import "./AboutUs.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import aboutImg from "../../../assests/images/about/about-us.jpg";
-import aboutBg from "../../../assests/images/about/about-bg.jpg";
 import { useFormContext } from "../../Layout/FormContext";
-import road from "../../../assests/images/about/road.png";
-import poker from "../../../assests/images/about/poker.png";
-import gate from "../../../assests/images/about/gate.png";
-import light from "../../../assests/images/about/smart-light.png";
-import pool from "../../../assests/images/about/swimming-pool.png";
-import park from "../../../assests/images/about/park.png";
+
+const aboutImg = `${process.env.REACT_APP_API_URL}/assests/images/about/about-us.webp`;
+const aboutBg = `${process.env.REACT_APP_API_URL}/assests/images/about/about-bg.webp`;
+const road = `${process.env.REACT_APP_API_URL}/assests/images/about/road.png`;
+const poker = `${process.env.REACT_APP_API_URL}/assests/images/about/poker.png`;
+const gate = `${process.env.REACT_APP_API_URL}/assests/images/about/gate.png`;
+const light = `${process.env.REACT_APP_API_URL}/assests/images/about/smart-light.png`;
+const pool = `${process.env.REACT_APP_API_URL}/assests/images/about/swimming-pool.png`;
+const park = `${process.env.REACT_APP_API_URL}/assests/images/about/park.png`;
 
 const aboutLists = [
     {

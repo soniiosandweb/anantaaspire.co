@@ -1,28 +1,29 @@
 import "./Amenities.css";
-import { Col, Container, Row } from 'react-bootstrap';
-import club from "../../../assests/images/amenities/night-club.png";
-import pool from "../../../assests/images/amenities/pool.png";
-import bowling from "../../../assests/images/amenities/bowling.png";
-import playground from "../../../assests/images/amenities/playground.png";
-import treadmill from "../../../assests/images/amenities/treadmill.png";
-import yoga from "../../../assests/images/amenities/yoga.png";
-import homeSecurity from "../../../assests/images/amenities/home-security.png";
-import wifiRouter from "../../../assests/images/amenities/wifi-router.png";
-import electricGenerator from "../../../assests/images/amenities/electric-generator.png";
-import cctv from "../../../assests/images/amenities/cctv.png";
-import gate from "../../../assests/images/amenities/gate.png";
-import carParking from "../../../assests/images/amenities/car-parking.png";
-import measuring from "../../../assests/images/amenities/measuring.png";
-import notes from "../../../assests/images/amenities/notes.png";
-import pitch from "../../../assests/images/amenities/pitch.png";
-import chargingBuilding from "../../../assests/images/amenities/charging-building.png";
-import cyberSecurity from "../../../assests/images/amenities/cyber-security.png";
-import tableTennis from "../../../assests/images/amenities/table-tennis.png";
-import iceSkating from "../../../assests/images/amenities/ice-skating.png";
-import massage from "../../../assests/images/amenities/massage.png";
-import security from "../../../assests/images/amenities/security.png";
-import cup from "../../../assests/images/amenities/cup.png";
-import earthquake from "../../../assests/images/amenities/earthquake.png";
+import { Col, Container, Row } from "react-bootstrap";
+
+const club = `${process.env.REACT_APP_API_URL}/assests/images/amenities/night-club.png`;
+const pool = `${process.env.REACT_APP_API_URL}/assests/images/amenities/pool.png`;
+const bowling = `${process.env.REACT_APP_API_URL}/assests/images/amenities/bowling.png`;
+const playground = `${process.env.REACT_APP_API_URL}/assests/images/amenities/playground.png`;
+const treadmill = `${process.env.REACT_APP_API_URL}/assests/images/amenities/treadmill.png`;
+const yoga = `${process.env.REACT_APP_API_URL}/assests/images/amenities/yoga.png`;
+const homeSecurity = `${process.env.REACT_APP_API_URL}/assests/images/amenities/home-security.png`;
+const wifiRouter = `${process.env.REACT_APP_API_URL}/assests/images/amenities/wifi-router.png`;
+const electricGenerator = `${process.env.REACT_APP_API_URL}/assests/images/amenities/electric-generator.png`;
+const cctv = `${process.env.REACT_APP_API_URL}/assests/images/amenities/cctv.png`;
+const gate = `${process.env.REACT_APP_API_URL}/assests/images/amenities/gate.png`;
+const carParking = `${process.env.REACT_APP_API_URL}/assests/images/amenities/car-parking.png`;
+const measuring = `${process.env.REACT_APP_API_URL}/assests/images/amenities/measuring.png`;
+const notes = `${process.env.REACT_APP_API_URL}/assests/images/amenities/notes.png`;
+const pitch = `${process.env.REACT_APP_API_URL}/assests/images/amenities/pitch.png`;
+const chargingBuilding = `${process.env.REACT_APP_API_URL}/assests/images/amenities/charging-building.png`;
+const cyberSecurity = `${process.env.REACT_APP_API_URL}/assests/images/amenities/cyber-security.png`;
+const tableTennis = `${process.env.REACT_APP_API_URL}/assests/images/amenities/table-tennis.png`;
+const iceSkating = `${process.env.REACT_APP_API_URL}/assests/images/amenities/ice-skating.png`;
+const massage = `${process.env.REACT_APP_API_URL}/assests/images/amenities/massage.png`;
+const security = `${process.env.REACT_APP_API_URL}/assests/images/amenities/security.png`;
+const cup = `${process.env.REACT_APP_API_URL}/assests/images/amenities/cup.png`;
+const earthquake = `${process.env.REACT_APP_API_URL}/assests/images/amenities/earthquake.png`;
 
 const Amenities = () => {
 

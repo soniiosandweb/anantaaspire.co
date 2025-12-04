@@ -87,16 +87,16 @@
     justify-content: center;
 }
 .banner_slider_heading {
-    font-size: 35px;
-    line-height: 42px;
-    font-weight: 700;
-    font-family: var(--font-bold);
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    font-family: var(--font-semibold);
 }
 .banner_slider_subtext {
-    font-size: 25px;
-    line-height: 28px;
-    font-weight: 500;
-    font-family: var(--font-medium);
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: var(--font-semibold);
 }
 .banner_slider_red_text {
     font-size: 20px;
@@ -131,16 +131,16 @@
 }
 @media (min-width: 1500px) {
     .banner_slider_heading {
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 38px;
+        line-height: 42px;
     }
     .banner_slider_subtext {
-        font-size: 28px;
-        line-height: 32px;
+        font-size: 25px;
+        line-height: 30px;
     }
     .banner_slider_red_text {
-        font-size: 23px;
-        line-height: 27px;
+        font-size: 22px;
+        line-height: 25px;
     }
     .banner_slider_lists_item  {
         font-size: 18px;

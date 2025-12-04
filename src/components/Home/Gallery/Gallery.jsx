@@ -1,22 +1,23 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./Gallery.css";
 import { useState } from "react";
-import gallery1 from "../../../assests/images/gallery/gallery1.jpg";
-import gallery2 from "../../../assests/images/gallery/gallery2.jpg";
-import gallery3 from "../../../assests/images/gallery/gallery3.png";
-import gallery4 from "../../../assests/images/gallery/gallery4.jpg";
-import gallery5 from "../../../assests/images/gallery/gallery5.jpg";
-import gallery6 from "../../../assests/images/gallery/gallery6.jpg";
-import gallery7 from "../../../assests/images/gallery/gallery7.jpg";
-import gallery8 from "../../../assests/images/gallery/gallery8.jpg";
-import gallery9 from "../../../assests/images/gallery/gallery9.jpg";
 import { ImageList, ImageListItem } from "@mui/material";
 import Lightbox from 'yet-another-react-lightbox';
 import { Counter, Fullscreen, Zoom } from 'yet-another-react-lightbox/plugins';
 import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
-import galleryBg from "../../../assests/images/gallery/gallery_bg.jpg";
+
+const gallery1 = `${process.env.REACT_APP_API_URL}/assests/images/gallery/gallery1.webp`;
+const gallery2 = `${process.env.REACT_APP_API_URL}/assests/images/gallery/gallery2.webp`;
+const gallery3 = `${process.env.REACT_APP_API_URL}/assests/images/gallery/gallery3.webp`;
+const gallery4 = `${process.env.REACT_APP_API_URL}/assests/images/gallery/gallery4.webp`;
+const gallery5 = `${process.env.REACT_APP_API_URL}/assests/images/gallery/gallery5.webp`;
+const gallery6 = `${process.env.REACT_APP_API_URL}/assests/images/gallery/gallery6.webp`;
+const gallery7 = `${process.env.REACT_APP_API_URL}/assests/images/gallery/gallery7.webp`;
+const gallery8 = `${process.env.REACT_APP_API_URL}/assests/images/gallery/gallery8.webp`;
+const gallery9 = `${process.env.REACT_APP_API_URL}/assests/images/gallery/gallery9.webp`;
+const galleryBg = `${process.env.REACT_APP_API_URL}/assests/images/gallery/gallery_bg.webp`;
 
 const Gallery = () => {
 
@@ -99,7 +100,7 @@ const Gallery = () => {
                                     variant="quilted"
                                     cols={5}
                                     gap={8}
-                                    rowHeight={160}
+                                    rowHeight={140}
                                     className='gallery-images-list'
                                 >
                                     {images.map((item,i) => (

@@ -54,7 +54,7 @@
     display: none;
 }
 .contact_section_form input {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     font-family: var(--font-medium);
     padding: 12px 12px !important;
@@ -124,7 +124,7 @@
     border-color: #EAEAEA !important;
     color: #EAEAEA;
     padding: 12px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .contact_section_form .price_range_group .btn-check:checked+.btn,
 .contact_section_form .price_range_group .btn:active,
@@ -166,6 +166,14 @@
 .contact_us_section .enquire-form .form-section {
     width: 100%;
 }  
+@media (min-width: 1500px) {
+    .contact_section_form input {
+        font-size: 18px;
+    }
+    .contact_section_form .price_range_group .btn {
+        font-size: 16px;
+    }
+}
 @media (max-width: 1199px) {
     .contact_us_section .contact_us_flex {
         gap: 2rem;

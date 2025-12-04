@@ -1,7 +1,7 @@
 import "./ContactUs.css";
 import { Col, Container, Row } from "react-bootstrap"
 import EnquireForm from "../../Layout/EnquireForm/EnquireForm"
-import contactImg from "../../../assests/images/contact-img.jpg";
+const contactImg = `${process.env.REACT_APP_API_URL}/assests/images/contact-img.webp`;
 
 const ContactUs = () => {
     return (

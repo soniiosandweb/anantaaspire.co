@@ -62,6 +62,10 @@
     position: relative;
     z-index: 1;
 }
+.gallery_section .gallery-images-list {
+    max-width: 1085px;
+    margin: auto;
+}
 @media (max-width: 991px) {
     .gallery_tabs .nav-link  {
         font-size: 16px;

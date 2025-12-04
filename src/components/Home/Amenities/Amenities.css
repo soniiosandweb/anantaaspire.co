@@ -1,6 +1,6 @@
 .amenities_grid {
     display: grid;
-    grid-template-columns: repeat(6, 170px);
+    grid-template-columns: repeat(6, 168px);
     gap: 25px;
     justify-content: center;
 }
@@ -9,7 +9,7 @@
     text-align: center;
     padding: 20px 8px;
     border-radius: 5px;
-    min-height: 170px;
+    min-height: 168px;
 }
 .amenities_grid .amenities_item:hover {
     border-color: var(--color-yellow);
@@ -21,21 +21,26 @@
     margin: auto auto 1rem;
 }
 .amenities_item .amenities_title {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     font-family: var(--font-semibold);
     color: #293868;
     line-height: 1.2;
 }
+@media (min-width: 1500px) {
+    .amenities_item .amenities_title {
+        font-size: 15px;
+    }
+}
 @media(max-width: 1399px) {
     .amenities_grid {
-        grid-template-columns: repeat(5, 170px);
+        grid-template-columns: repeat(5, 168px);
         gap: 30px;
     }
 }
 @media (max-width: 1199px) {
     .amenities_grid {
-        grid-template-columns: repeat(4, 170px);
+        grid-template-columns: repeat(4, 168px);
     }
 }
 @media (max-width: 991px) {
@@ -43,21 +48,21 @@
         font-size: 14px;
     }
     .amenities_grid {
-        grid-template-columns: repeat(3, 170px);
+        grid-template-columns: repeat(3, 168px);
     }
 }
 @media (max-width: 767px) {
     .amenities_grid {
-        grid-template-columns: repeat(2, 170px);
+        grid-template-columns: repeat(2, 168px);
     }
     .amenities_grid .amenities_item {
         padding: 15px 10px;
-        min-height: 170px;
+        min-height: 168px;
     }
 }
 @media (max-width: 575px) {
     .amenities_grid {
-        grid-template-columns: repeat(2, 170px);
+        grid-template-columns: repeat(2, 168px);
     }
     
 }

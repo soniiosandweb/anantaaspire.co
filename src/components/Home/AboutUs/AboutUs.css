@@ -20,8 +20,8 @@
     background-color: var(--color-white);
 }
 .about_sub_text {
-    font-size: 25px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 25px;
     color: var(--color-yellow);
     font-weight: 700;
     font-family: var(--font-bold);
@@ -70,7 +70,7 @@
     border-radius: 30px;
 }
 .main_heading {
-    font-size: 35px;
+    font-size: 30px;
     color: var(--color-footer);
     font-weight: 700;
     font-family: var(--font-bold);
@@ -102,8 +102,9 @@
     display: flex;
     gap: 5px;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
+    font-family: var(--font-medium);
     background-color: var(--color-yellow);
     padding: 10px 20px;
     color: var(--color-black);
@@ -123,6 +124,18 @@
 }
 .key_heightlight .main_heading::after {
     background-color: var(--color-yellow);
+}
+@media (min-width: 1500px) {
+    .main_heading {
+        font-size: 35px;
+    }
+    .about_sub_text {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .about_us_section .request_btn {
+        font-size: 16px;
+    }
 }
 @media (max-width: 1440px) {
     .about_lists_top .about_lists_item,

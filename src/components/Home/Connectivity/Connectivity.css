@@ -2,7 +2,7 @@
     padding-top: 2rem;
 }
 .connectivity_subheading {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     font-family: var(--font-bold);
     color: var(--color-footer);
@@ -12,6 +12,11 @@
     font-size: 18px;
     color: var(--color-black);
     margin-top: 1rem;
+}
+@media (min-width: 1500px) {
+    .connectivity_subheading {
+        font-size: 25px;
+    }
 }
 @media (max-width: 1440px) {
     .connectivity_content {

@@ -29,7 +29,7 @@
 }
 .floor_plan_btn_block .floor_plans_btn {
     white-space: nowrap;
-    font-size: 16px;
+    font-size: 14px;
     padding: 6px 15px;
     background-color: var(--color-transparent);
     color: var(--color-white);
@@ -42,11 +42,20 @@
     color: var(--color-black) !important;
 }
 .floor_plan_btn_heading {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 20px;
     font-weight: 600;
     font-family: var(--font-semibold);
     color: var(--color-white);
+}
+@media (min-width: 1500px) {
+    .floor_plan_btn_heading {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .floor_plan_btn_block .floor_plans_btn {
+        font-size: 16px;
+    }
 }
 @media (max-width: 1440px) {
     .floor_plan_btn_heading {

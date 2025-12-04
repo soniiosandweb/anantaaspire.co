@@ -1,16 +1,17 @@
 import './Footer.css';
 import { NavLink } from 'react-router-dom';
-import logo from '../../../assests/images/logo-new.png';
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from 'react-bootstrap';
-import facebook from "../../../assests/images/facebook.png";
-import twitter from "../../../assests/images/twitter.png";
-import youtube from "../../../assests/images/youtube.png";
-import facebookColor from "../../../assests/images/facebook-color.png";
-import twitterColor from "../../../assests/images/twitter-color.png";
-import youtubeColor from "../../../assests/images/youtube-color.png";
+
+const logo = `${process.env.REACT_APP_API_URL}/assests/images/logo-new.png`;
+const facebook = `${process.env.REACT_APP_API_URL}/assests/images/facebook.png`;
+const twitter = `${process.env.REACT_APP_API_URL}/assests/images/twitter.png`;
+const youtube = `${process.env.REACT_APP_API_URL}/assests/images/youtube.png`;
+const facebookColor = `${process.env.REACT_APP_API_URL}/assests/images/facebook-color.png`;
+const twitterColor = `${process.env.REACT_APP_API_URL}/assests/images/twitter-color.png`;
+const youtubeColor = `${process.env.REACT_APP_API_URL}/assests/images/youtube-color.png`;
 
 const Footer = () => {
     const menuLinks = [

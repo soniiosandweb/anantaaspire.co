@@ -10,7 +10,7 @@
 .floor_plans_nav .nav-link {
     background-color: var(--color-white);
     border: 1px solid var(--color-footer);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     font-family: var(--font-semibold);
     color: var(--color-black);
@@ -53,8 +53,9 @@
     display: flex;
     gap: 5px;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
+    font-family: var(--font-medium);
     border-radius: 50px;
     background-color: var(--color-yellow);
     color: var(--color-black);
@@ -100,6 +101,14 @@
     font-weight: 600;
     font-family: var(--font-semibold);
     filter: blur(4px);
+}
+@media (min-width: 1500px) {
+    .floor_plans_nav .nav-link {
+        font-size: 18px;
+    }
+    .floor_plans_btn {
+        font-size: 16px;
+    }
 }
 @media (max-width: 1440px) {
     .floor_plans_nav .nav-link {
