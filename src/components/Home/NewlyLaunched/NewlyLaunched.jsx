@@ -5,9 +5,9 @@ import { useState } from "react";
 import axios from "axios";
 
 const launchedImg = `${process.env.REACT_APP_API_URL}/assests/images/launched_group_blank.webp`;
-const phoneIcon = `${process.env.REACT_APP_API_URL}/assests/images/phone-call.png`;
-const eyes = `${process.env.REACT_APP_API_URL}/assests/images/eyes.png`;
-const sendIcon = `${process.env.REACT_APP_API_URL}/assests/images/send_icon.png`;
+const phoneIcon = `${process.env.REACT_APP_API_URL}/assests/images/phone-call.webp`;
+const eyes = `${process.env.REACT_APP_API_URL}/assests/images/eyes.webp`;
+const sendIcon = `${process.env.REACT_APP_API_URL}/assests/images/send_icon.webp`;
 const anataLogo = `${process.env.REACT_APP_API_URL}/assests/images/ananta_logo_launched.png`;
 
 const NewlyLaunched = () => {

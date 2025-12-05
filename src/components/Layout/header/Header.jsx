@@ -7,9 +7,9 @@ import PriceDetailsForm from "../PriceDetailsForm/PriceDetailsForm";
 import RequestDetailsForm from "../RequestDetailsForm/RequestDetailsForm";
 
 const logo = `${process.env.REACT_APP_API_URL}/assests/images/logo-new.png`;
-const phoneIcon = `${process.env.REACT_APP_API_URL}/assests/images/phone-call.png`;
+const phoneIcon = `${process.env.REACT_APP_API_URL}/assests/images/phone-call.webp`;
 const menuIcon = `${process.env.REACT_APP_API_URL}/assests/images/menus.png`;
-const whatsappIcon = `${process.env.REACT_APP_API_URL}/assests/images/whatsapp.png`;
+const whatsappIcon = `${process.env.REACT_APP_API_URL}/assests/images/whatsapp.webp`;
 
 const Header = () => {
 

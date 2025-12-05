@@ -10,12 +10,12 @@ const banner3 = `${process.env.REACT_APP_API_URL}/assests/images/banner/banner3.
 const banner4 = `${process.env.REACT_APP_API_URL}/assests/images/banner/banner4.webp`;
 const banner5 = `${process.env.REACT_APP_API_URL}/assests/images/banner/banner5.webp`;
 
-const telephone = `${process.env.REACT_APP_API_URL}/assests/images/telephone.png`;
-const appIcon = `${process.env.REACT_APP_API_URL}/assests/images/app-icon.png`;
-const rupee = `${process.env.REACT_APP_API_URL}/assests/images/rupee.png`;
-const business = `${process.env.REACT_APP_API_URL}/assests/images/businessman.png`;
-const operator = `${process.env.REACT_APP_API_URL}/assests/images/operator.png`;
-const carIcon = `${process.env.REACT_APP_API_URL}/assests/images/car-icon.png`;
+const telephone = `${process.env.REACT_APP_API_URL}/assests/images/telephone.webp`;
+const appIcon = `${process.env.REACT_APP_API_URL}/assests/images/app-icon.webp`;
+const rupee = `${process.env.REACT_APP_API_URL}/assests/images/rupee.webp`;
+const business = `${process.env.REACT_APP_API_URL}/assests/images/businessman.webp`;
+const operator = `${process.env.REACT_APP_API_URL}/assests/images/operator.webp`;
+const carIcon = `${process.env.REACT_APP_API_URL}/assests/images/car-icon.webp`;
 
 const weGetOptions = [
     {

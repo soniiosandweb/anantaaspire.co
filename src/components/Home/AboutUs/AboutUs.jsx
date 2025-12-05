@@ -4,12 +4,12 @@ import { useFormContext } from "../../Layout/FormContext";
 
 const aboutImg = `${process.env.REACT_APP_API_URL}/assests/images/about/about-us.webp`;
 const aboutBg = `${process.env.REACT_APP_API_URL}/assests/images/about/about-bg.webp`;
-const road = `${process.env.REACT_APP_API_URL}/assests/images/about/road.png`;
-const poker = `${process.env.REACT_APP_API_URL}/assests/images/about/poker.png`;
-const gate = `${process.env.REACT_APP_API_URL}/assests/images/about/gate.png`;
-const light = `${process.env.REACT_APP_API_URL}/assests/images/about/smart-light.png`;
-const pool = `${process.env.REACT_APP_API_URL}/assests/images/about/swimming-pool.png`;
-const park = `${process.env.REACT_APP_API_URL}/assests/images/about/park.png`;
+const road = `${process.env.REACT_APP_API_URL}/assests/images/about/road.webp`;
+const poker = `${process.env.REACT_APP_API_URL}/assests/images/about/poker.webp`;
+const gate = `${process.env.REACT_APP_API_URL}/assests/images/about/gate.webp`;
+const light = `${process.env.REACT_APP_API_URL}/assests/images/about/smart-light.webp`;
+const pool = `${process.env.REACT_APP_API_URL}/assests/images/about/swimming-pool.webp`;
+const park = `${process.env.REACT_APP_API_URL}/assests/images/about/park.webp`;
 
 const aboutLists = [
     {

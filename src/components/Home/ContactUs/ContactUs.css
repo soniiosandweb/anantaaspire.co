@@ -37,13 +37,13 @@
 .contact_section_form .main_heading::after {
     background-color: var(--color-white);
 }
-.contact_section_form  .contact_text {
+.contact_section_form .contact_text {
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
     font-family: var(--font-medium);
     color: var(--color-white);
-    margin: 1rem 0 2rem;
+    margin: 1rem 0 1rem;
 }
 .contact_section_form h5 {
     font-size: 35px;
@@ -57,7 +57,7 @@
     font-size: 16px;
     font-weight: 500;
     font-family: var(--font-medium);
-    padding: 12px 12px !important;
+    padding: 10px !important;
     height: auto;
     border: none !important;
     border-bottom: 1px solid var(--color-border) !important;
@@ -73,7 +73,7 @@
     border-bottom: 1px solid var(--color-border) !important;
     border-radius: 0px;
     background-color: var(--color-transparent) !important;
-    padding: 12px 12px !important;
+    padding: 10px !important;
 }
 .contact_section_form .PhoneInput input {
     border: none !important;
@@ -81,7 +81,7 @@
     padding: 0 10px !important;
 }
 .contact_section_form .checkbox_div {
-    margin-top: 2rem !important;
+    margin-top: 1rem !important;
     font-size: 12px;
     color: var(--color-white);
 }
@@ -99,11 +99,11 @@
     border-radius: 50px;
     text-transform: capitalize;
     padding: 10px 20px !important;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     font-family: var(--font-medium);
     border: 1px solid var(--color-yellow) !important;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .contact_section_form .text-center.flex.items-center.justify-end {
     justify-content: start !important;
@@ -123,7 +123,7 @@
 .contact_section_form .price_range_group .btn {
     border-color: #EAEAEA !important;
     color: #EAEAEA;
-    padding: 12px;
+    padding: 10px;
     font-size: 14px;
 }
 .contact_section_form .price_range_group .btn-check:checked+.btn,
@@ -158,7 +158,7 @@
     text-align: center;
 }
 .contact_us_section .enquire-form {
-    min-height: 467px;
+    min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,12 +166,10 @@
 .contact_us_section .enquire-form .form-section {
     width: 100%;
 }  
-@media (min-width: 1500px) {
-    .contact_section_form input {
+@media (max-width: 1399px) {
+    .contact_section_form .contact_text {
         font-size: 18px;
-    }
-    .contact_section_form .price_range_group .btn {
-        font-size: 16px;
+        line-height: 22px;
     }
 }
 @media (max-width: 1199px) {
@@ -182,8 +180,11 @@
         padding: 0 1rem;
     }
     .contact_section_form .price_range_group .btn {
-        font-size: 14px;
-        padding: 12px 6px;
+        padding: 10px 6px;
+    }
+    .contact_section_form .contact_text {
+        font-size: 16px;
+        line-height: 20px;
     }
 }
 @media (max-width: 991px) {

@@ -1,29 +1,29 @@
 import "./Amenities.css";
 import { Col, Container, Row } from "react-bootstrap";
 
-const club = `${process.env.REACT_APP_API_URL}/assests/images/amenities/night-club.png`;
-const pool = `${process.env.REACT_APP_API_URL}/assests/images/amenities/pool.png`;
-const bowling = `${process.env.REACT_APP_API_URL}/assests/images/amenities/bowling.png`;
-const playground = `${process.env.REACT_APP_API_URL}/assests/images/amenities/playground.png`;
-const treadmill = `${process.env.REACT_APP_API_URL}/assests/images/amenities/treadmill.png`;
-const yoga = `${process.env.REACT_APP_API_URL}/assests/images/amenities/yoga.png`;
-const homeSecurity = `${process.env.REACT_APP_API_URL}/assests/images/amenities/home-security.png`;
-const wifiRouter = `${process.env.REACT_APP_API_URL}/assests/images/amenities/wifi-router.png`;
-const electricGenerator = `${process.env.REACT_APP_API_URL}/assests/images/amenities/electric-generator.png`;
-const cctv = `${process.env.REACT_APP_API_URL}/assests/images/amenities/cctv.png`;
-const gate = `${process.env.REACT_APP_API_URL}/assests/images/amenities/gate.png`;
-const carParking = `${process.env.REACT_APP_API_URL}/assests/images/amenities/car-parking.png`;
-const measuring = `${process.env.REACT_APP_API_URL}/assests/images/amenities/measuring.png`;
-const notes = `${process.env.REACT_APP_API_URL}/assests/images/amenities/notes.png`;
-const pitch = `${process.env.REACT_APP_API_URL}/assests/images/amenities/pitch.png`;
-const chargingBuilding = `${process.env.REACT_APP_API_URL}/assests/images/amenities/charging-building.png`;
-const cyberSecurity = `${process.env.REACT_APP_API_URL}/assests/images/amenities/cyber-security.png`;
-const tableTennis = `${process.env.REACT_APP_API_URL}/assests/images/amenities/table-tennis.png`;
-const iceSkating = `${process.env.REACT_APP_API_URL}/assests/images/amenities/ice-skating.png`;
-const massage = `${process.env.REACT_APP_API_URL}/assests/images/amenities/massage.png`;
-const security = `${process.env.REACT_APP_API_URL}/assests/images/amenities/security.png`;
-const cup = `${process.env.REACT_APP_API_URL}/assests/images/amenities/cup.png`;
-const earthquake = `${process.env.REACT_APP_API_URL}/assests/images/amenities/earthquake.png`;
+const club = `${process.env.REACT_APP_API_URL}/assests/images/amenities/night-club.webp`;
+const pool = `${process.env.REACT_APP_API_URL}/assests/images/amenities/pool.webp`;
+const bowling = `${process.env.REACT_APP_API_URL}/assests/images/amenities/bowling.webp`;
+const playground = `${process.env.REACT_APP_API_URL}/assests/images/amenities/playground.webp`;
+const treadmill = `${process.env.REACT_APP_API_URL}/assests/images/amenities/treadmill.webp`;
+const yoga = `${process.env.REACT_APP_API_URL}/assests/images/amenities/yoga.webp`;
+const homeSecurity = `${process.env.REACT_APP_API_URL}/assests/images/amenities/home-security.webp`;
+const wifiRouter = `${process.env.REACT_APP_API_URL}/assests/images/amenities/wifi-router.webp`;
+const electricGenerator = `${process.env.REACT_APP_API_URL}/assests/images/amenities/electric-generator.webp`;
+const cctv = `${process.env.REACT_APP_API_URL}/assests/images/amenities/cctv.webp`;
+const gate = `${process.env.REACT_APP_API_URL}/assests/images/amenities/gate.webp`;
+const carParking = `${process.env.REACT_APP_API_URL}/assests/images/amenities/car-parking.webp`;
+const measuring = `${process.env.REACT_APP_API_URL}/assests/images/amenities/measuring.webp`;
+const notes = `${process.env.REACT_APP_API_URL}/assests/images/amenities/notes.webp`;
+const pitch = `${process.env.REACT_APP_API_URL}/assests/images/amenities/pitch.webp`;
+const chargingBuilding = `${process.env.REACT_APP_API_URL}/assests/images/amenities/charging-building.webp`;
+const cyberSecurity = `${process.env.REACT_APP_API_URL}/assests/images/amenities/cyber-security.webp`;
+const tableTennis = `${process.env.REACT_APP_API_URL}/assests/images/amenities/table-tennis.webp`;
+const iceSkating = `${process.env.REACT_APP_API_URL}/assests/images/amenities/ice-skating.webp`;
+const massage = `${process.env.REACT_APP_API_URL}/assests/images/amenities/massage.webp`;
+const security = `${process.env.REACT_APP_API_URL}/assests/images/amenities/security.webp`;
+const cup = `${process.env.REACT_APP_API_URL}/assests/images/amenities/cup.webp`;
+const earthquake = `${process.env.REACT_APP_API_URL}/assests/images/amenities/earthquake.webp`;
 
 const Amenities = () => {
 

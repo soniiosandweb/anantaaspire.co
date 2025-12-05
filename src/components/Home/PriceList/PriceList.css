@@ -127,7 +127,9 @@
     .floor_right_blur_text {
         font-size: 20px;
     }
-    
+    .floor_plans_nav .nav-link {
+        font-size: 14px;
+    }
 }
 @media (max-width: 991px) {
     .floor_palns_flex .floor_text_content,
@@ -148,6 +150,9 @@
         margin-top: 1rem;
         justify-content: start;
         margin-bottom: 0;
+    }
+    .floor_plans_nav .nav-link {
+        font-size: 13px;
     }
 }
 @media (max-width: 767px) {

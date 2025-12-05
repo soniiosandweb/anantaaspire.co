@@ -1,12 +1,12 @@
 import "./Connectivity.css";
 import { Col, Container, Row } from 'react-bootstrap';
-const school = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/school.png`;
-const hospital = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/hospital.png`;
-const mall = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/mall.png`;
-const runway = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/runway.png`;
-const train = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/train.png`;
-const road = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/road.png`;
-const bus = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/bus.png`;
+const school = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/school.webp`;
+const hospital = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/hospital.webp`;
+const mall = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/mall.webp`;
+const runway = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/runway.webp`;
+const train = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/train.webp`;
+const road = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/road.webp`;
+const bus = `${process.env.REACT_APP_API_URL}/assests/images/connectivity/bus.webp`;
 
 const connectivityItems = [
     {

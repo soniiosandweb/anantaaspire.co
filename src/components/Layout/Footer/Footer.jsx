@@ -6,12 +6,12 @@ import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 import { Col, Container, Row } from 'react-bootstrap';
 
 const logo = `${process.env.REACT_APP_API_URL}/assests/images/logo-new.png`;
-const facebook = `${process.env.REACT_APP_API_URL}/assests/images/facebook.png`;
-const twitter = `${process.env.REACT_APP_API_URL}/assests/images/twitter.png`;
-const youtube = `${process.env.REACT_APP_API_URL}/assests/images/youtube.png`;
-const facebookColor = `${process.env.REACT_APP_API_URL}/assests/images/facebook-color.png`;
-const twitterColor = `${process.env.REACT_APP_API_URL}/assests/images/twitter-color.png`;
-const youtubeColor = `${process.env.REACT_APP_API_URL}/assests/images/youtube-color.png`;
+const facebook = `${process.env.REACT_APP_API_URL}/assests/images/facebook.webp`;
+const twitter = `${process.env.REACT_APP_API_URL}/assests/images/twitter.webp`;
+const youtube = `${process.env.REACT_APP_API_URL}/assests/images/youtube.webp`;
+const facebookColor = `${process.env.REACT_APP_API_URL}/assests/images/facebook-color.webp`;
+const twitterColor = `${process.env.REACT_APP_API_URL}/assests/images/twitter-color.webp`;
+const youtubeColor = `${process.env.REACT_APP_API_URL}/assests/images/youtube-color.webp`;
 
 const Footer = () => {
     const menuLinks = [
